@@ -3,7 +3,7 @@ import { DefaultFooter } from '@ant-design/pro-components';
 import '@umijs/max';
 import React from 'react';
 const Footer: React.FC = () => {
-  const defaultMessage = '编程导航知识星球出品';
+  const defaultMessage = '李奕赫揍小邰出品';
   const currentYear = new Date().getFullYear();
   return (
     <DefaultFooter
@@ -13,9 +13,9 @@ const Footer: React.FC = () => {
       copyright={`${currentYear} ${defaultMessage}`}
       links={[
         {
-          key: '鱼智能 BI',
-          title: '鱼智能 BI',
-          href: 'https://pro.ant.design',
+          key: '李奕赫揍小邰的博客，欢迎关注',
+          title: '李奕赫揍小邰的博客',
+          href: 'https://blog.csdn.net/weixin_54217216?type=blog',
           blankTarget: true,
         },
         {
@@ -25,9 +25,9 @@ const Footer: React.FC = () => {
           blankTarget: true,
         },
         {
-          key: '鱼智能 BI',
-          title: '鱼智能 BI',
-          href: 'https://ant.design',
+          key: '李奕赫揍小邰的GitHub地址，欢迎star',
+          title: 'GitHub地址',
+          href: 'https://github.com/JunLingSmartly',
           blankTarget: true,
         },
       ]}
