@@ -1,6 +1,6 @@
 import Footer from '@/components/Footer';
 import { Question } from '@/components/RightContent';
-import { getLoginUserUsingGET } from '@/services/yubi/userController';
+import { getLoginUserUsingGET } from '@/services/jjlbi/userController';
 import { LinkOutlined } from '@ant-design/icons';
 import { SettingDrawer } from '@ant-design/pro-components';
 import type { RunTimeLayoutConfig } from '@umijs/max';
